@@ -10,10 +10,11 @@ const main = () => {
 
   const d3: AbstractDisplay = new StringDisplay("안녕하세요.");
 
-  const d4: AbstractDisplay = new StringDisplay_old("안녕하세요.");
+  const d4: AbstractDisplay = new StringDisplay_old("안녕하세요.(old)");
 
   d1.display();
   d2.display();
+  d3.display();
   d4.display();
 };
 
