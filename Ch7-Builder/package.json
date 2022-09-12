@@ -1,0 +1,17 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "prestart": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:plain": "NODE_ENV=plain node ./dist/main.js",
+    "start:html": "NODE_ENV=html node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.7.16"
+  }
+}
